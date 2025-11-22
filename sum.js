@@ -6,3 +6,11 @@ while(num <= 10){
     console.log('sum: ', sum)
     num ++;
 }
+
+console.log('for loop')
+let sumemation = 0;
+for(let i = 1; i<= 10; i++){
+    sumemation = sumemation + i;
+    
+}
+console.log('total sumation: ',sumemation)
